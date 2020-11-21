@@ -31,7 +31,7 @@ The recommended number of simulations is nsimul = 10’000, as this equates to a
 
 
 # Authors
-Nicholas Delmotte
+Nicholas Delmotte \
 Daniel Montagna
 
 
