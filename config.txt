@@ -1,0 +1,64 @@
+***** CONFIG FILE *****
+PLEASE RESPECT THE FOLLOWING SYNTAX:
+'identifier' " = " 'value' 
+do NOT add any other text on the same line as a variable definition
+***********************
+
+% Nº of simulations %
+nsimul = 10000
+% Background Field %
+B_x = 5e-9
+B_y = 5e-9
+B_z = 5e-9
+
+% Sensor uncertainty %
+angle_sigma = 0
+off_sigma = 0
+gain_sigma = 0
+
+% Test parameter values%
+theta0_x = 0.7878  
+theta0_y = 90.1757
+theta0_z = 90.3697
+
+phi0_x = -119.1486 
+phi0_y = 0
+phi0_z = 89.7586
+
+offset_x = -3.6472e-9
+offset_y = 6.3769e-9
+offset_z = 0.3404e-9
+
+gain_x = 0.9501
+gain_y = 1.0157
+gain_z = 1
+
+% Sensor locations %
+distance_sensors = 1
+x_IB = 4.5
+y_IB = 0
+z_IB = 0
+
+% Boom %
+boom_x = 0.5
+boom_y = 0
+boom_z = 0
+boom_sigma = 0.5
+
+% Spacecraft dimensions %
+length_x = 1
+length_y = 1
+length_z = 1
+
+% Spacecraft disturbance %
+
+lil_n = 100
+big_n = 20
+sigma_pos = 0.02
+sigma_comp = 0.05
+
+bool_dip = 1
+dip_filepath = 'data_solar_orbiter.xlsx'
+
+*do not remove the end of file*
+end
